@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+    <head><title>Web 1-02 Quest(2)</title>
+        <style>
+        *{
+            list-style: none;
+            text-decoration: none;
+            border-collapse: collapse;
+            margin:0px;
+            padding:0px;
+            color:#000;
+        }
+        #top{
+            width:1000px;
+            height:500px;
+            margin-top:30px;
+            margin-left:250px;
+        }
+
+        .top_left{
+            width:750px;
+            height:500px;
+            float:left;
+            
+        }
+        .top_right {
+            width:250px;
+            height:500px;
+            line-height:13px;
+            float:left;
+        }
+
+        #top_box{
+            background-color:rgba(0, 100, 0, 0.6);
+            width:210px;
+            height:210px;
+            line-height:25px;
+            float:left;
+            margin-top:-250px;
+            padding:15px 25px 25px 15px;
+            
+        }
+
+        #box_all{
+            width:1000px;
+            margin-left:250px;
+            background:skyblue;
+            float:left;
+        }
+
+        .box_left{
+            width:750px;
+            height:500px;
+            float:left;
+            background:pink;
+            
+        }
+
+        .box_right{
+            background:yellow;
+            width:210px;
+            height:460px;
+            padding:15px 20px 25px 20px;
+            float:left;
+            
+        }
+
+        .box{
+            width:210px;
+            height:210px;
+            padding:15px 20px 25px 20px;
+            line-height:25px;
+            float:left;
+        }
+        .box:nth-child(2n+1){
+            background:grey;
+        }
+        .box:nth-child(2n){
+            background:orange;
+        }
+
+        #footer{
+            background:pink;
+            width:1000px;
+            height:40px;
+            float:left;
+        }
+
+        .f_left{
+            display:flex;
+            background:lightgrey;
+            width:750px;
+            height:40px;
+        }
+
+        .f_left > ul > div{
+            font-size:12px;
+            padding:0px 15px 0px 15px;
+        }
+        .f_left > ul:not(:last-child) > div{
+            border-right:2px solid orange;
+            margin-top:11px;
+        }
+        .f_left > ul:last-child > div{
+            margin-top:10px;
+        }
+        </style>
+    </head>
+        <body>
+        <div id="top">
+            <div class="top_left">
+                <img src="chef_about.png">
+            </div>
+            <div class="top_right">
+                <img src="right1.png">
+                <img src="right2.png">
+            </div>
+            <div id="top_box">
+                <h2>GLOBAL<br>BUSINESS</h2>
+                <h5><br>sdfsdfsdffwfrwfergaegergrgg<br>
+                    dfgegesradsf<br>
+                    safgarwgasdfgasfgsffsdf<br>
+                    sdfafarwfwfsdfwafwee</h5>
+            </div>
+        </div>
+        <div id="box_all">
+            <div class="box_left">
+                <div class="box">
+                    <h2>TITLE</h2><br>
+                    <h5>gfgeargagrrergeereasergear<br>
+                    sdfsfregergergerff</h5></div>
+                <div class="box"><h2>TITLE</h2><br>
+                    <h5>gfgeargagrrergeereasergear<br>
+                    sdfsfregergergerff</h5></div>
+                <div class="box"><h5>3</h5></div>
+                <div class="box"><h5>4</h5></div>
+                <div class="box"><h5>5</h5></div>
+                <div class="box"><h5>6</h5></div>
+            </div>
+            <div class="box_right">
+                <h5>7</h5>
+            </div>
+            <div id="footer">
+                <div class="f_left">
+                    <ul><div>법적고지</div></ul>
+                    <ul><div>이메일무단수집거부</div></ul>
+                    <ul><div>이용약관</div></ul>
+                    <ul><div>개인정보취급방침</div></ul>
+                    <ul><div>고객센터</div></ul>
+                    <ul><div>입찰공고</div></ul>
+                </div>
+                <div class="orange_line"></div>
+            </div>
+        </div>
+        </body>
